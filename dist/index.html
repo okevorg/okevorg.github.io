@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<!-- Normilize css -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Все css стили в одном файле -->
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body class="ishome">
+	<header class="header" id="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="header__phone wow fadeInLeft">
+							<span><a href="tel: +38 (066) 204-56-20" class="header__phone-item">+38 (066) 204-56-20</a></span>
+							<span><a href="tel: +38 (066) 204-56-20" class="header__phone-item">+38 (093) 348-15-12</a></span>
+						</div> <!-- header__phone -->
+					</div>
+					<div class="col-sm-6">
+						<nav>
+							<ul class="header__social justify-content-end wow fadeInRight">
+								<li class="header__social-item"><a href="https://vk.com"><i class="fa fa-vk"></i></a></li>
+								<li class="header__social-item"><a href="https://facebook.com"><i class="fa fa-facebook"></i></a></li>
+								<li class="header__social-item"><a href="https://vk.com"><i class="fa fa-instagram"></i></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div> <!-- row -->
+			</div> <!-- container -->
+		</div> <!-- header-top -->
+		<div class="header-nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="head_logo">
+							<a href="#"><img src="img/logo.png" alt="KEVo" class="img-fluid" title="KEVo"></img></a>
+						</div>
+					</div>
+					<div class="col-sm-9">
+						<nav>
+							<button class="header__menu-button d-block d-sm-none d-none d-sm-block d-md-none"><i class="fa fa-bars"></i></button>
+							<ul class="header__menu justify-content-end">
+								<li class="header__menu-item"><a href="">Главная</a></li>
+								<li class="header__menu-item"><a href="">Портфолио</a></li>
+								<li class="header__menu-item"><a href="">Услуги и цены</a></li>
+								<li class="header__menu-item"><a href="">Блог</a></li>
+								<li class="header__menu-item"><a href="">Контакты</a></li>
+							</ul>
+						</nav>
+					</div> <!-- col-sm-6 -->
+				</div> <!-- row -->
+			</div> <!-- container -->
+		</div> <!-- header-nav -->
+	</header>	
+	<section class="s__home-slider">
+		<div class="owl-carousel header-slider">
+		  <div class="slider_item"><img src="img/slider1.jpg" alt="слайдер1"><p class="slider_item-text"><span>Успех вашего бизнеса в правильной разработке сайта.</span></p></div>
+		  <div class="slider__item"><img src="img/slider2.jpg" alt="слайдер2"><p class="slider_item-text"><span>Cоздание сайтов любой сложности.</span></p></div>
+		</div>
+	</section>
+	<section class="s-work-info d-none">
+		<div class="container">
+			<div class="info__block">
+				<p class="info__block-text wow fadeIn">Создание сайтов</p>
+			</div> <!-- info__block -->
+				<div class="work__info">
+					<div class="row">
+						<div class="col-sm-6">
+							<img src="img/work_info.png" alt="Создание сайтов" class="work__info-img wow bounceInLeft">
+						</div>
+						<div class="col-sm-6">
+							<div class="work__info-text wow bounceInRight"><p>Доверять создание сайта и выбор движка для управления им следует профессионалам. Однако это вовсе не говорит о том, что заказчику необходимо просто заплатить и получить окончательно готовый проект. Вы, как платящий деньги клиент, должны лично убедиться в том, что результат работы ВЕБ-студии соответствует вашим ожиданиям. Рассмотрим несколько важных моментов этого вопроса.</p></div>
+						</div>
+					</div> <!-- row -->
+				</div> <!-- work__info -->
+		</div> <!-- container -->
+	</section>
+
+	<section class="s-portfolio">
+		<div class="info__block">
+			<p class="info__block-text wow fadeIn">Портфолио</p>
+		</div> <!-- info__block -->
+			<div class="portfolio">
+				<div class="container">
+					<div class="owl-carousel portfolio-slider">
+						<div class="post landing portfolio-slider__item wow fadeInLeft"><img src="img/works-demo.jpg" alt=""></div>
+						<div class="post shops portfolio-slider__item wow fadeInDown"><img src="img/works-demo2.jpeg" alt=""></div>
+						<div class="post shops portfolio-slider__item wow fadeInUp"><img src="img/works-demo3.jpg" alt=""></div>
+						<div class="post landing portfolio-slider__item wow fadeInRight"><img src="img/works-demo4.jpg" alt=""></div>
+					</div> <!-- portfolio-slider -->
+					<div class="portfolio-buttons">
+						<button id="showall" class="wow fadeInLeft">Показать все</button>
+						<button id="landing" class="wow fadeInDown">Landing</button>
+						<button id="shops" class="wow fadeInUp">Интернет-магазин</button>
+						<button id="multipage" class="wow fadeInRight">Многостраничные</button>
+					</div> <!--portfolio_buttons -->
+				</div> <!-- container -->
+			</div> <!-- portfolio -->
+	</section>
+	<section class="s-advantages">
+		<div class="container">
+			<div class="info__block">
+				<p class="info__block-text wow fadeIn">Почему мы?</p>
+			</div> <!-- info__block -->
+			<div class="row">
+				<div class="col-md-3 col-12">	
+					<div class="list__item wow fadeInLeft">
+						<span class="list__item-icon"><i class="fa fa-code"></i></span>
+						<h2 class="list__item-title">Технологии</h2>
+						<p class="list__item-text">В верстке мы используем HTML5|CSS3|jQuery|Ajax, что придает сайту легкости и удобности.Програмную часть исполняем на PHP.</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3 col-12">
+					<div class="list__item wow fadeInLeft">
+						<span class="list__item-icon"><i class="fa fa-tablet"></i></span>
+						<h2 class="list__item-title">Адаптивность</h2>
+						<p class="list__item-text">В процессе вёрстки мы адаптируем сайты под любые устройства.</p>
+					</div>
+				</div>	
+				<div class="col-md-3 col-12">
+					<div class="list__item wow fadeInRight">
+						<span class="list__item-icon"><i class="fa fa-money"></i></span>
+						<h2 class="list__item-title">Цены</h2>
+						<p class="list__item-text">Наши цены приятно удивят как заказчиков комплексных решений, так и заказчиков отдельных услуг.</p>
+					</div>
+				</div>	
+				<div class="col-md-3 col-12">
+					<div class="list__item wow fadeInRight">
+						<span class="list__item-icon"><i class="fa fa-wrench"></i></span>
+						<h2 class="list__item-title">Поддержка сайта</h2>
+						<p class="list__item-text">Сегодня, поддержка сайтов — одна из самых востребованных услуг. Мы решим проблемы с доменом и хостингом, неправильным отображением страниц.</p>
+					</div>
+				</div>	
+			</div> <!-- row -->
+		</div> <!-- container -->
+	</section>
+	<section class="s-services">
+		<div class="container">
+			<div class="info__block">
+				<p class="info__block-text wow fadeIn">Пакеты услуг</p>
+			</div> <!-- info__block -->
+			<div class="services__block">
+				<div class="row">
+					<div class="col-sm-4 col-12">
+						<div class="services__item" style="background: url(img/services-landing.jpg) no-repeat center / cover;">
+							<span><h2 class="services__item-title">Landing-page</h2></span>
+							<p class="services__item-price">$200</p>
+							<div class="services__item-info">
+								<ul class="item__menu">
+									<li class="item__menu-list">Дизайн</li>
+									<li class="item__menu-list">Вёрстка</li>
+									<li class="item__menu-list">Программирование</li>
+									<li class="item__menu-list">Установка на хостинг</li>
+									<li class="item__menu-list">Обслуживание 24/7</li>
+								</ul>
+							</div> <!-- services__item-info -->
+							<a href="#" class="services__item-button">Заказать</a>
+						</div> <!-- services-item --> 
+					</div>
+					<div class="col-sm-4 col-12 ">
+						<div class="services__item" style="background: url(img/services-magazin.jpg) no-repeat center / cover;">
+							<span><h2 class="services__item-title">Интернет-магазин</h2></span>
+							<p class="services__item-price">$500</p>
+							<div class="services__item-info">
+								<ul class="item__menu">
+									<li class="item__menu-list">Дизайн</li>
+									<li class="item__menu-list">Вёрстка</li>
+									<li class="item__menu-list">Программирование</li>
+									<li class="item__menu-list">Установка на хостинг</li>
+									<li class="item__menu-list">Обслуживание 24/7</li>
+								</ul>
+							</div> <!-- services__item-info -->
+							<a href="#" class="services__item-button">Заказать</a>
+						</div> <!-- services-item --> 	
+					</div> 
+					<div class="col-sm-4 col-12">
+						<div class="services__item" style="background: url(img/services-multipage.jpg) no-repeat center / cover;">
+							<span><h2 class="services__item-title">Многостраничный</h2></span>	
+							<p class="services__item-price">$700</p>
+							<div class="services__item-info">
+								<ul class="item__menu">
+									<li class="item__menu-list">Дизайн</li>
+									<li class="item__menu-list">Вёрстка</li>
+									<li class="item__menu-list">Программирование</li>
+									<li class="item__menu-list">Установка на хостинг</li>
+									<li class="item__menu-list">Обслуживание 24/7</li>
+								</ul>	
+							</div> <!-- services__item-info -->
+							<a href="#" class="services__item-button">Заказать</a>
+						</div> <!-- services-item -->  
+					</div> 
+				</div> <!-- row -->
+			</div> <!-- services__block -->
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="services__more">
+						<p class="services__more-info">Мы продоставляем услуги разного вида отдельно.</p>
+						<a href="#" class="services__more-button">Посмотреть прайс на услуги</a>
+					</div>
+				</div>
+			</div>
+		</div> <!-- container -->
+	</section>
+	<footer class="home-footer">
+		<div class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="contact__info">
+							<div class="contact__info-title d-flex"><i class="fa fa-map-marker contact__info-icon"></i>
+							<h3 class="contact__info-titleText">Контактная информация</h3>
+							</div> <!-- contact__info-title -->
+							<div class="contact__info-block">
+								<h4 class="contact__info-block-title">Адрес:</h4>
+								<span><p class="contact__info-block-text">Украина. г.Мариуполь, Проспект Мира</p></span>
+							</div> <!--contact__info-adress -->
+								<div class="contact__info-block">
+								<h4 class="contact__info-block-title">Телефон:</h4>
+								<span><p class="contact__info-block-text">+38(066)204-56-20, +38(093)348-15-12</p></span>
+							</div> <!--contact__info-adress -->
+								<div class="contact__info-block">
+								<h4 class="contact__info-block-title">Электронная почта</h4>
+								<span><p class="contact__info-block-text">evgeniykoshel26@gmail.com</p></span>
+								</div> <!--contact__info-adress -->
+							<nav>
+								<ul class="header__social footer__social wow fadeInLeft">
+									<li class="header__social-item"><a href="https://vk.com"><i class="fa fa-vk"></i></a></li>
+									<li class="header__social-item"><a href="https://facebook.com"><i class="fa fa-facebook"></i></a></li>
+									<li class="header__social-item"><a href="https://vk.com"><i class="fa fa-instagram"></i></a></li>
+								</ul>
+							</nav>
+						</div> <!-- contact__info -->
+					</div>
+					<div class="col-sm-3">
+						<div class="news__block">
+							<div class="news__block-title d-flex"><i class="fa fa-podcast news__block-icon"></i>
+							<h3 class="news__block-titleText">Полезные посты</h3>
+							<a href="#">Больше</a>
+							</div> <!-- news__block-title -->
+							<div class="news-block__main">
+								<nav>
+									<ul class="news__block-posts">
+										<li class="news__block-postsItem d-flex">
+										<img src="img/Post-image.jpg" alt="css">
+										<a href="">Борьба со спамом в комментариях</a>
+										</li>
+										<li class="news__block-postsItem d-flex">
+										<img src="img/Post-image.jpg" alt="css">
+										<a href="">Борьба со спамом в комментариях</a>
+										</li>
+										<li class="news__block-postsItem d-flex">
+										<img src="img/Post-image.jpg" alt="css">
+										<a href="">Борьба со спамом в комментариях</a>
+										</li>							
+									</ul>
+								</nav>
+							</div> <!-- news-block__main -->								
+						</div> <!-- news__block-->
+					</div>
+					<div class="col-sm-3">
+						<div class="new__project d-flex"><i class="fa fa-product-hunt"></i>
+						<h3 class="news__block-titleText">Полезные посты</h3>
+						</div> <!-- news__block-title -->						
+					</div>
+				</div> <!-- row -->
+			</div> <!-- container -->
+		</div> <!-- main-footer -->	
+	</footer>
+
+
+	<!-- Все библиотеки js в одном файле -->
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
